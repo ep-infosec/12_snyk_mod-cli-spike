@@ -1,0 +1,24 @@
+{
+  "name": "@hammertime/mod-cli-spike-protect",
+  "version": "1.0.0-monorepo",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "mod-cli-spike-protect": "dist/index.js"
+  },
+  "private": false,
+  "license": "private",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/snyk/mod-cli-spike.git",
+    "directory": "packages/mod-cli-spike-protect"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
+}
